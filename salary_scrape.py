@@ -19,6 +19,6 @@ def get_player_links():
     return player_links
 
 def get_salaries(player_link):
-    soup = get_soup(url)
+    soup = get_soup(player_link)
     salaries_table = soup.find('table', {'id': 'all_salaries'})
     return soup.find('tbody')
