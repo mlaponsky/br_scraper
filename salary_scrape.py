@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import re
 
 BASE_URL = 'http://www.basketball-reference.com/'
 
